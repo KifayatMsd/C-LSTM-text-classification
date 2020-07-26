@@ -10,6 +10,25 @@ Implemention of C-LSTM in Tensorflow for multi-class text classification problem
 * Sklearn > 0.19.0  
 ## Data Format
 Training data should be stored in csv file. The first line of the file should be ["label", "content"] or ["content", "label"].
+## Steps to run the code on Google CoLab
+*Step 1: First install tensorflow 1.6.0 using the following commad
+```
+!pip install tensorflow==1.6.0
+```
+*Step 2 : Verify tensorflow version
+```
+import tensorflow as ts
+print(ts.__version__)
+```
+
+*Step 3 : Then clone git repository for C-LSTM implementation
+```
+!git clone https://github.com/KifayatMsd/C-LSTM-text-classification.git
+```
+*Step 4 : Start train the model
+```
+!python train.py --data_file=./data/data.csv --clf=clstm 
+```
 ## Train
 Run train.py to train the models.
 Parameters:
