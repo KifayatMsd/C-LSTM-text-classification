@@ -3,7 +3,7 @@ Implemention of C-LSTM in Tensorflow for multi-class text classification problem
 ## Models
 * The proposed C-LSTM model given in below paper is used for text classification.
 * Paper: A C-LSTM Neural Network for Text Classification
-* Link : https://arxiv.org/abs/1511.08630).
+* Link : https://arxiv.org/abs/1511.08630
 ## Requirements  
 * Python 3.x  
 * Tensorflow > 1.5
